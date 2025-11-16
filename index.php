@@ -117,8 +117,19 @@ if ($vista == "menu") {
 // ==================== SKILLS ====================
 elseif ($vista == "skills") {
     echo '
-    <h1>Skills</h1>
-    <p style="font-size:22px; text-align:center;">Hola mundo 👋</p>
+    <h1>Skills / Habilidades - Gianfranco Peniche Uribe</h1>
+    <div style="font-size:16px; text-align:center; line-height:1.5;">
+        <p>👋 <strong>Estudiante de Ingeniería de Sistemas</strong>, con interés en transformación digital e innovación tecnológica. Persona responsable, honesta y comprometida, orientada a adquirir experiencia en equipos dinámicos que buscan alcanzar objetivos comunes.</p>
+        <p><strong>Habilidades desarrolladas durante la formación académica y proyectos prácticos:</strong></p>
+        <ul style="list-style:none; padding:0; text-align:left; display:inline-block; margin:0; max-width:620px;">
+            <li>💻 <strong>Programación y desarrollo de software:</strong> manejo de Python, Java, JavaScript y desarrollo de aplicaciones web y móviles.</li>
+            <li>📈 <strong>Bases de datos y gestión de información:</strong> conocimientos en SQL, MySQL y administración de datos.</li>
+            <li>☁️ <strong>Despliegue y gestión en la nube:</strong> familiaridad con AWS, manejo de servidores y despliegue de aplicaciones.</li>
+            <li>🔀 <strong>Control de versiones y colaboración:</strong> uso de Git y GitHub para gestión de proyectos en equipo.</li>
+            <li>🧠 <strong>Análisis y resolución de problemas:</strong> capacidad para identificar, analizar y proponer soluciones eficientes en entornos tecnológicos.</li>
+            <li>🚀 <strong>Innovación y transformación digital:</strong> aplicación de nuevas tecnologías para optimizar procesos y generar valor en proyectos.</li>
+        </ul>
+    </div>
 
     <form method="post">
         <button name="vista" value="menu">Volver</button>
